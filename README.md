@@ -1,29 +1,50 @@
-# par-impar
+# Verificador de Número Par ou Ímpar com Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+Este é um projeto simples construído com Vue.js que permite ao usuário inserir um número e verifica se é par ou ímpar.
 
-## Recommended IDE Setup
+## Funcionalidades
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Interface amigável para inserir um número.
+- Verificação instantânea se o número inserido é par ou ímpar.
 
-## Customize configuration
+## Pré-requisitos
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Antes de começar, certifique-se de ter o Node.js instalado em sua máquina.
 
-## Project Setup
+## Como Usar
 
-```sh
-npm install
-```
+1. Clone este repositório:
 
-### Compile and Hot-Reload for Development
+```bash
+git clone https://github.com/HenriqueRodriguesRossi/par-impar-vue.js.git
 
-```sh
+2. Acesse o diretório do projeto:
+
+cd par-impar-vue.js
+
+3. Instale as dependências:
+
+npm install 
+
+4. Inicie o servidor de desenvolvimento:
+
 npm run dev
-```
 
-### Compile and Minify for Production
+5. Abra o navegador e acesse:
 
-```sh
-npm run build
-```
+http://localhost:5173/
+
+Tecnologias Utilizadas
+Vue.js
+Vue CLI
+Estrutura do Projeto
+src/
+App.vue: Componente principal do Vue.js.
+main.js: Arquivo de entrada do aplicativo.
+Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+
+Desenvolvido por Henrique Rodrigues Cruciak Rossi
